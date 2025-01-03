@@ -97,7 +97,6 @@ button img {
 @media (max-width: 768px) {
   body {
     padding: 1.5rem 1.5rem;
-    background-color: yellow;
   }
 
   section {
@@ -131,7 +130,7 @@ button img {
 @media (max-width: 1024px) {
 
   img {
-    width: 55%;
+    /* width: 55%; */
   }
   div {
     width: 100%;
