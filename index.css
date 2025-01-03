@@ -93,12 +93,11 @@ button img {
   height: 20px;
 }
 
-
-
 /* MOBIE DESIGN */
 @media (max-width: 768px) {
   body {
     padding: 1.5rem 1.5rem;
+    background-color: yellow;
   }
 
   section {
@@ -119,12 +118,22 @@ button img {
     gap: 20px;
   }
 
- div h1 {
-  font-size: 28px;
- }
+  div h1 {
+    font-size: 28px;
+  }
 
   div h2 {
     font-size: 14px;
     font-weight: 300;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  img {
+    width: 55%;
+  }
+  div {
+    width: 100%;
   }
 }
